@@ -43,6 +43,25 @@ export default {
       type: "string",
     },
     {
+      title: 'Home Carousel Image',
+      name: 'homeCarouselImage',
+      description: 'The image that is shown on the carousel when this project is featured on the home page',
+      type: 'image',
+      options: {
+        hotspot: true
+      },
+      fields: [
+        {
+          name: 'caption',
+          type: 'string',
+          title: 'Image Alt Text (Recommended for SEO)',
+          options: {
+            isHighlighted: true // <-- make this field easily accessible
+          }
+        },
+      ]
+    },
+    {
       title: 'Image Slides',
       name: 'imageSlides',
       description: 'The modular slides that will display this projects imagery',
