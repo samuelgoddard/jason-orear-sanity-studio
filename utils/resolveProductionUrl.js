@@ -1,6 +1,6 @@
 const globalSlugs = {
   home: '/',
-  about: '/about',
+  info: '/info',
   work: '/works',
 }
 
