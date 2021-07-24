@@ -13,16 +13,14 @@ export default {
     {
       title: 'Clients',
       name: 'clients',
-      type: 'array', 
-      of: [{
-        type: 'block',
-        styles: [
-          {title: 'Normal', value: 'normal'},
-        ],
-        lists: [
-          {title: 'Bullet', value: 'bullet'},
-        ],
-      }],
+      type: 'array',
+      of: [{type: 'client', title: 'Client'}],
+    },
+    {
+      title: 'Publications',
+      name: 'publications',
+      type: 'array',
+      of: [{type: 'publication', title: 'Publication'}],
     },
     {
       title: 'Biography Text',
