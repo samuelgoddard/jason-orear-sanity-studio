@@ -16,6 +16,16 @@ export default {
       type: 'string',
       validation: Rule => Rule.required()
     },
+    {
+      title: 'Phone Number',
+      name: 'phone',
+      type: 'string',
+    },
+    {
+      title: 'Address',
+      name: 'address',
+      type: 'text',
+    },
   ],
   preview: {
     select: {
