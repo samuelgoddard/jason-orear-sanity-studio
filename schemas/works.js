@@ -19,6 +19,12 @@ export default {
       type: "string",
     },
     {
+      title: "Project Reference Code",
+      description: `The shorthand reference code that appears on index hover - eg: 'Sölden, AU—18'`,
+      name: "referenceCode",
+      type: "string",
+    },
+    {
       title: "Client",
       description: "The name of the project - eg: 'Gensler Architecture'",
       name: "client",
@@ -35,7 +41,7 @@ export default {
       description: `The GPS Coordinates of this project - eg: “37°46'09.3"N 122°23'20.5"W”`,
       name: "gps",
       type: "string",
-    },
+    }    
     {
       title: "Year",
       description: "The year this project took place - eg: '2020'",
