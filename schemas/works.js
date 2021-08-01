@@ -41,7 +41,7 @@ export default {
       description: `The GPS Coordinates of this project - eg: “37°46'09.3"N 122°23'20.5"W”`,
       name: "gps",
       type: "string",
-    }    
+    },
     {
       title: "Year",
       description: "The year this project took place - eg: '2020'",
