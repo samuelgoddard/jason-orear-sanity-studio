@@ -26,6 +26,18 @@ export default {
       name: 'address',
       type: 'text',
     },
+    {
+      name: 'primaryColor',
+      title: 'Primary Color',
+      description: "Overrides the default background colour of the menu",
+      type: 'colorPicker'
+    },
+    {
+      name: 'secondaryColor',
+      title: 'Secondary Color',
+      description: "Overrides the default highlight colour of the menu (and accents around the site eg: logo and menu hover)",
+      type: 'colorPicker'
+    }
   ],
   preview: {
     select: {

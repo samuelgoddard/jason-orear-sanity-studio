@@ -17,7 +17,8 @@
     "media",
     "@sanity/production-preview",
     "order-documents",
-    "vercel-deploy"
+    "vercel-deploy",
+    "color-picker"
   ],
   "env": {
     "development": {
