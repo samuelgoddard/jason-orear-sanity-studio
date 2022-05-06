@@ -37,6 +37,12 @@ export default {
       title: 'Secondary Color',
       description: "Overrides the default highlight colour of the menu (and accents around the site eg: logo and menu hover)",
       type: 'colorPicker'
+    },
+    {
+      name: 'textColor',
+      title: 'Text Color',
+      description: "Overrides the default text colour of the menu",
+      type: 'colorPicker'
     }
   ],
   preview: {
