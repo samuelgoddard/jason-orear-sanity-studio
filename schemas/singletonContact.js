@@ -43,6 +43,12 @@ export default {
       title: 'Text Color',
       description: "Overrides the default text colour of the menu",
       type: 'colorPicker'
+    },
+    {
+      name: 'headerLightMode',
+      title: 'Header Light Mode',
+      description: "Overrides the header colours to be light (turn on when using a dark nav background)",
+      type: 'boolean'
     }
   ],
   preview: {

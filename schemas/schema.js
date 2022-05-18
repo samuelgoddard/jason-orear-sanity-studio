@@ -12,6 +12,7 @@ import works from './works'
 // Common
 import seo from './common/seo'
 import imageSlide from './common/imageSlide'
+import videoSlide from './common/videoSlide'
 import client from './common/client'
 import publication from './common/publication'
 
@@ -27,6 +28,7 @@ export default createSchema({
     publication,
     client,
     imageSlide,
+    videoSlide,
     seo
   ]),
 })

@@ -49,6 +49,13 @@ export default {
       type: "string",
     },
     {
+      title: 'Publications',
+      name: 'publications',
+      description: "Any publications this project had",
+      type: 'array',
+      of: [{type: 'publication', title: 'Publication'}],
+    },
+    {
       title: 'Home Carousel Image',
       name: 'homeCarouselImage',
       description: 'The image that is shown on the carousel when this project is featured on the home page',
@@ -68,11 +75,20 @@ export default {
       ]
     },
     {
+      title: 'Home Carousel Video',
+      name: 'homeCarouselVideo',
+      description: 'The (optional) video that is shown on the carousel when this project is featured on the home page, note: ideally Keep less than 8 seconds',
+      type: 'file'
+    },
+    {
       title: 'Image Slides',
       name: 'imageSlides',
       description: 'The modular slides that will display this projects imagery',
       type: 'array',
-      of: [{type: 'imageSlide', title: 'Image Slide'}],
+      of: [
+        {type: 'imageSlide', title: 'Image Slide'},
+        {type: 'videoSlide', title: 'Video Slide'}
+      ],
     },
     {
       name: 'slug',
