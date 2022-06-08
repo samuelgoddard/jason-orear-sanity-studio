@@ -15,6 +15,7 @@ import imageSlide from './common/imageSlide'
 import videoSlide from './common/videoSlide'
 import client from './common/client'
 import publication from './common/publication'
+import award from './common/award'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -26,6 +27,7 @@ export default createSchema({
     singletonContact,
     works,
     publication,
+    award,
     client,
     imageSlide,
     videoSlide,

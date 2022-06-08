@@ -56,6 +56,13 @@ export default {
       of: [{type: 'publication', title: 'Publication'}],
     },
     {
+      title: 'Awards',
+      name: 'awards',
+      description: "Any awards this project had",
+      type: 'array',
+      of: [{type: 'award', title: 'Award'}],
+    },
+    {
       title: 'Home Carousel Image',
       name: 'homeCarouselImage',
       description: 'The image that is shown on the carousel when this project is featured on the home page',
