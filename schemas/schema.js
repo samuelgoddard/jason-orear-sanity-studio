@@ -16,6 +16,7 @@ import videoSlide from './common/videoSlide'
 import client from './common/client'
 import publication from './common/publication'
 import award from './common/award'
+import externalVideoSlide from './common/externalVideoSlide'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -31,6 +32,7 @@ export default createSchema({
     client,
     imageSlide,
     videoSlide,
+    externalVideoSlide,
     seo
   ]),
 })

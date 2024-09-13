@@ -94,7 +94,8 @@ export default {
       type: 'array',
       of: [
         {type: 'imageSlide', title: 'Image Slide'},
-        {type: 'videoSlide', title: 'Video Slide'}
+        {type: 'videoSlide', title: 'Video Slide'},
+        {type: 'externalVideoSlide', title: 'External Video Slide'}
       ],
     },
     {
